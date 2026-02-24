@@ -1,6 +1,7 @@
 export default function Footer() {
   return (
     <div
+      id="contact"
       className="relative h-[400px] sm:h-[600px] lg:h-[800px] max-h-[800px]"
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
@@ -9,53 +10,47 @@ export default function Footer() {
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">О нас</h3>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Меню</h3>
                 <a
-                  href="#projects"
+                  href="#"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Проекты
+                  Завтраки
                 </a>
                 <a
-                  href="#mission"
+                  href="#"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Миссия
+                  Обеды
                 </a>
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Связаться
+                  Напитки
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Обучение</h3>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Адрес</h3>
+                <span className="text-white text-sm sm:text-base">
+                  Трасса М-4, 342 км
+                </span>
+                <span className="text-white text-sm sm:text-base">
+                  Ежедневно 7:00 — 22:00
+                </span>
                 <a
-                  href="#news"
+                  href="tel:+79000000000"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Новости
-                </a>
-                <a
-                  href="#learn"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Курсы
-                </a>
-                <a
-                  href="#publications"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Статьи
+                  +7 (900) 000-00-00
                 </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
-              <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                LUMINO
+              <h1 className="text-[14vw] sm:text-[13vw] lg:text-[11vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
+                ПРИДОРОЖНАЯ
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Lumino</p>
+              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Придорожная</p>
             </div>
           </div>
         </div>
